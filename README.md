@@ -13,8 +13,8 @@ A clean, responsive, and professional resume web application built with HTML and
 ## Screenshot
 
 <!-- Add your screenshot here -->
-![Resume Screenshot](/path/to/your/screenshot.png "Resume Screenshot")
-*Replace the above image path with your actual screenshot*
+![Resume Screenshot](https://github.com/Ashokkalluri26/HexSoftwares_Resume_website_project/blob/main/Screenshots/resume%20web%20app.jpg)
+
 
 ## How to Use
 
