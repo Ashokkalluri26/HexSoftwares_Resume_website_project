@@ -1,4 +1,4 @@
-# Professional Resume Web Application
+# Resume Web Application
 
 A clean, responsive, and professional resume web application built with HTML and CSS.
 
