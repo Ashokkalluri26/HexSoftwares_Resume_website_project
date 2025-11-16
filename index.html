@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #2c3e50;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0;
+        }
+        .title {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        @media (max-width: 600px) {
+            .skills-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KALLURI ASHOK</h1>
+        <div class="title">B.Tech, Computer Science & Engineering, 2026</div>
+        <div class="contact-info">
+            <p>Email: kalluriashok2627@gmail.com | Mobile:7569293407 | CGPA: 8.3/10</p>
+        </div>
+    </header>
+
+    <section id="education">
+        <h2>ACADEMIC DETAILS</h2>
+        <div class="education-item">
+            <h3>B.Tech in Computer Science & Engineering</h3>
+            <p>Annamacharya Institute of Technology and Sciences | 2022 - 2026</p>
+            <p>State Board of Technical Education and Training | CGPA: 8.3/10</p>
+        </div>
+        <div class="education-item">
+            <h3>Class X</h3>
+            <p>Sri Vikas Model High School | Telangana Board of Secondary Education (SSC)</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>TECHNICAL PROFICIENCY</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Technologies & Tools</h3>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Database Management</li>
+                    <li>Frontend Development</li>
+                    <li>Git & GitHub</li>
+                    <li>TensorFlow/Keras</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="internships">
+        <h2>INTERNSHIPS</h2>
+        <div class="experience-item">
+            <h3>Web Developer Intern</h3>
+            <p>Edunet Foundation | Aug 2025 - Sep 2025</p>
+            <ul>
+                <li>Completed IBM Skills program on frontend development</li>
+                <li>Gained hands-on experience with HTML, CSS, JavaScript, and responsive web design</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Cybersecurity Intern</h3>
+            <p>Internpro | May 2025 - Present</p>
+            <ul>
+                <li>Worked on a Password Manager web application focusing on frontend security</li>
+                <li>Applied secure coding practices using HTML, CSS, JavaScript</li>
+                <li>Collaborated on GitHub for maintainable code</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project-item">
+            <h3>Smart Study Planner - Web Development</h3>
+            <p>Sep 2025 - Oct 2025</p>
+            <ul>
+                <li>Developed a planner web app to help students organize tasks effectively using HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>Bitcoin Price Prediction Using ML</h3>
+            <p>Feb 2025 - Jul 2025</p>
+            <ul>
+                <li>Forecasted Bitcoin prices using LSTM and Random Forest with data from Yahoo Finance and CoinGecko</li>
+                <li>Improved accuracy using time-series analysis</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>Cotton Leaf Disease Detection Using CNN</h3>
+            <p>Nov 2022 - Feb 2023</p>
+            <ul>
+                <li>Built CNN using TensorFlow/Keras achieving 96% accuracy</li>
+                <li>Used OpenCV preprocessing and visualization with Pandas/Matplotlib</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>AI for Beginners - HP Foundation</li>
+            <li>PostgreSQL: Become an SQL Developer - Simplilearn</li>
+            <li>Web Development Fundamentals - IBM Skills Build</li>
+            <li>Internship on Front End Web Development - Edunet Foundation</li>
+        </ul>
+    </section>
+
+    <section id="workshops">
+        <h2>CONFERENCES AND WORKSHOPS</h2>
+        <ul>
+            <li>GUVI's Webinar - Top 3 Tools Every DevOps (Jun 2025)</li>
+            <li>AI for Students: Build Your Own Generative AI Model (Oct 2023)</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>LANGUAGES KNOWN</h2>
+        <p>Telugu (Native), English (Professional)</p>
+    </section>
+</body>
+</html>
